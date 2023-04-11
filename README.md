@@ -1,7 +1,7 @@
 # AI Based Road Inspection System
 
 <p align="center">
-  <img width="60%" height="60%" src="reports/omdena bhopal mexico.jpg.">
+  <img width="60%" height="60%" src="omdena bhopal mexico.jpg.">
 </p>
 
 ## THE PROBLEM
