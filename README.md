@@ -1,5 +1,8 @@
 # AI Based Road Inspection System
-# Omdena Bhopal x Omdena Mexico City
+
+<p align="center">
+  <img width="60%" height="60%" src="reports/omdena bhopal mexico.jpg.">
+</p>
 
 ## THE PROBLEM
 Current practices of performing road inspections are time-consuming and labour-intensive. Road surfaces degrade on a daily basis as a result of the heavy traffic on them. This will not only impact the driver’s comfort but will also impact economic efficiency. To maintain roads as efficiently as possible, municipalities perform regular inspections. The aim of the project is to use machine learning to study and analyze different types of road defects and to automatically detect any road abnormalities. We will design, build and test an inspection system for this purpose. The system is equipped with a camera to collect video streams from different roads with and without defects. Then, the captured data will be analyzed using the Matlab machine learning toolbox to train and test the network. Finally, the system will provide recommended actions for the municipality related to actions required to fix/correct road defects. The approach is divided into 3 main tasks: Data acquisition, Data Training/Testing, and Dashboard Building and Testing.
