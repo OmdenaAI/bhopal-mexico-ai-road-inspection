@@ -1,13 +1,14 @@
 # AI Based Road Inspection System
 
 <p align="center">
-  <img width="60%" height="60%" src="omdena bhopal mexico.jpg.">
+  <img width="60%" height="60%" src="reports/omdena bhopal mexico.jpg">
 </p>
 
-## THE PROBLEM
+## The Problem
 Current practices of performing road inspections are time-consuming and labour-intensive. Road surfaces degrade on a daily basis as a result of the heavy traffic on them. This will not only impact the driver’s comfort but will also impact economic efficiency. To maintain roads as efficiently as possible, municipalities perform regular inspections. The aim of the project is to use machine learning to study and analyze different types of road defects and to automatically detect any road abnormalities. We will design, build and test an inspection system for this purpose. The system is equipped with a camera to collect video streams from different roads with and without defects. Then, the captured data will be analyzed using the Matlab machine learning toolbox to train and test the network. Finally, the system will provide recommended actions for the municipality related to actions required to fix/correct road defects. The approach is divided into 3 main tasks: Data acquisition, Data Training/Testing, and Dashboard Building and Testing.
 
-
+## The Project Goals
+The goal of this project is to design, build and test an inspection system for detecting road abnormalities, defects, and damages using machine learning. The proposed system aims to improve the efficiency of road inspections and reduce the time and labor required for the process. The system will be equipped with a camera to capture video streams from different roads, and the data will be analyzed using the Matlab machine learning toolbox to train and test the network. The output of the system will be recommended actions for the municipality to fix/correct any identified road defects. The approach will involve three main tasks: data acquisition, data training/testing, and dashboard building and testing. Ultimately, the proposed system will help to maintain roads more efficiently, enhance driver comfort, and improve economic efficiency. Additionally, the system will provide insights into the causes of road abnormalities in Indian roads, including pitfalls, sinks, flooding, and traffic congestion due to insufficient lanes in cities and towns.
 
 ## Contribution Guidelines
 - Have a Look at the [project structure](#project-structure) and [folder overview](#folder-overview) below to understand where to store/upload your contribution
