@@ -1,0 +1,9 @@
+imageio==2.26.1
+moviepy==1.0.3
+numpy==1.23.5
+opencv-python==4.7.0.72
+Pillow==9.5.0
+streamlit==1.2.0
+streamlit_option_menu==0.3.2
+ultralytics==8.0.112
+
