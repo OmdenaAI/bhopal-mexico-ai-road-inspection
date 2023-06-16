@@ -112,7 +112,7 @@ def main():
         and to automatically detect any road abnormalities.
         """
         
-        st.text(problem_statement)
+        st.write(problem_statement)
         
         with st.expander("Read More"): 
             text = """
@@ -126,7 +126,7 @@ def main():
         efficiency. Additionally, the system will provide insights into the causes of road abnormalities in Indian roads, 
         including pitfalls, sinks, flooding, and traffic congestion due to insufficient lanes in cities and towns."""
             
-            st.text(text)
+            st.write(text)
         
         st.subheader("Our Solution")
         Project_goal = """
@@ -137,7 +137,7 @@ def main():
         we developed a web application using the Streamlit API which serves as a user friendly interface for others to test the 
         trained model on their own videos and images
         """
-        st.text(Project_goal)
+        st.write(Project_goal)
         
     elif selected == "Predict Defects": 
         
@@ -193,7 +193,7 @@ def main():
         st.markdown("<b><u>Project Leads :</u></b> Eeman Majumder, Vaasu Bisht , Cesar Tinoco & Mario Rodriguez", unsafe_allow_html=True)
         st.markdown("<b><u>Management & HR:</u><b> Sakshi Sawarkar ", unsafe_allow_html=True)
         st.markdown("<b><u>Project Contributors :</u></b> \n  ", unsafe_allow_html=True)
-        st.text("""1.  Adeeba Rashid \n 2.  Aditya Narayan Jha \n 3.  Akshit Srivastava \n 4.  Ameya Sharma \n 5.  Ananya Tiwari \n 6.  Annirudha Kumar \n 7.  Arpit Sengar \n 8.  Arjita Arora \n 9.  Aryan Rai \n 10.  Ashwin J R \n 11. Bhargav Patki \n 12. Bhushan Kumar \n 13. Darshnik Rohal \n 14. Debadrita Dey \n 15. Devanshi Pathak \n 16. Enrique Unzueta \n 17. Jyotsna Bhatia \n 18. Mohit Kumar Saw \n 19. Mrunmayee Ketkar \n 20. Mudit Gaur \n 21. Navneet Gupta \n 22. Navneet Lamba 23. Pujan Shrestha \n 24. Punit Kaushik \n 25. Pushpendra Kushwaha \n 26. Qurat ul aaein \n 27. Raj Mansuriya\n 28. Ram Vikram Singh \n 29. Sergio Reyes \n 30. Shreya Tripathi \n 31. Simone Reynoso \n 32. Soumyashis Sarkar \n 33. Sourav Dutta \n 34. Suhani Thakur \n 35. Swetha Thampi M \n 36. Tarandeep Singh Juneja \n 37. Virat Srivastava \n 38. Yahya Ismaiel \n """)
+        st.write("""1.  Adeeba Rashid \n 2.  Aditya Narayan Jha \n 3.  Akshit Srivastava \n 4.  Ameya Sharma \n 5.  Ananya Tiwari \n 6.  Annirudha Kumar \n 7.  Arpit Sengar \n 8.  Arjita Arora \n 9.  Aryan Rai \n 10.  Ashwin J R \n 11. Bhargav Patki \n 12. Bhushan Kumar \n 13. Darshnik Rohal \n 14. Debadrita Dey \n 15. Devanshi Pathak \n 16. Enrique Unzueta \n 17. Jyotsna Bhatia \n 18. Mohit Kumar Saw \n 19. Mrunmayee Ketkar \n 20. Mudit Gaur \n 21. Navneet Gupta \n 22. Navneet Lamba 23. Pujan Shrestha \n 24. Punit Kaushik \n 25. Pushpendra Kushwaha \n 26. Qurat ul aaein \n 27. Raj Mansuriya\n 28. Ram Vikram Singh \n 29. Sergio Reyes \n 30. Shreya Tripathi \n 31. Simone Reynoso \n 32. Soumyashis Sarkar \n 33. Sourav Dutta \n 34. Suhani Thakur \n 35. Swetha Thampi M \n 36. Tarandeep Singh Juneja \n 37. Virat Srivastava \n 38. Yahya Ismaiel \n """)
 
     elif selected == "Model Information":
         st.subheader('Introduction')
@@ -204,7 +204,7 @@ def main():
         real time detection, classification and analysis of various objects and anomalies on roads including potholes, cracks and 
         alligator cracks. 
         """
-        st.text(Introduction)
+        st.write(Introduction)
         st.subheader('Architecture')
         Architecture = """
         The architecture of YOLO consists of a convolutional neural network i.e CNN which is inspired by GoogleNet 
@@ -217,7 +217,7 @@ def main():
         surveillance systems, and robotics.
 
         """
-        st.text(Architecture)
+        st.write(Architecture)
         st.image('architecture.jpg')
         st.subheader('Training')
         Training = """
@@ -229,7 +229,7 @@ def main():
         to ensure the model's generalization capability.
         
         """
-        st.text(Training)
+        st.write(Training)
         st.subheader("Conclusion")
         conclusion = """
         The model is hence a cutting -edge solution that offers significant advancements over traditional manual inspection methods. 
@@ -238,7 +238,7 @@ def main():
         to improved road safety and optimized maintenance operations. 
 
         """
-        st.markdown(conclusion, unsafe_allow_html=True)    
+        st.write(conclusion)   
 if __name__ == '__main__':
     try:
         main()
