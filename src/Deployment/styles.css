@@ -5,8 +5,12 @@ div.css-1offfwp{
   }
   
   
-  span.css-10trblm{
+  span.css-f341up{
     font-size: 24px;
     color: rgb(240, 0, 0);
     font-weight: 300
+  }
+
+  footer{
+    visibility: hidden;
   }
