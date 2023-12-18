@@ -45,6 +45,7 @@ The goal of this project is to design, build and test an inspection system for d
         └── results        <- Folder to store Final analysis and modelling results and code.
 --------
 
+
 ## Folder Overview
 
 - Original          - Folder Containing old/completed Omdena challenge code.
