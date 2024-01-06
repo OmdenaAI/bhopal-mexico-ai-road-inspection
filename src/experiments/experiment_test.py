@@ -45,4 +45,3 @@ for file in os.listdir(path):
         plt.imshow(image)
         plt.show()
 
-
