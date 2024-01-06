@@ -98,3 +98,4 @@ cv2.drawContours(img, contours, -1, (0, 0, 255), 2)
 # Convert to binary mapping
 ret, binary_map = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY)
 
+
