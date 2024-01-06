@@ -44,3 +44,5 @@ for file in os.listdir(path):
         image_list.append(image)
         plt.imshow(image)
         plt.show()
+
+
