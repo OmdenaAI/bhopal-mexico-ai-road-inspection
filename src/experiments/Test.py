@@ -9,7 +9,6 @@ from sklearn.decomposition import PCA
 import geemap
 import cv2
 
-
 service_account = ''
 credentials = ee.ServiceAccountCredentials(service_account, '')
 ee.Initialize(credentials)
