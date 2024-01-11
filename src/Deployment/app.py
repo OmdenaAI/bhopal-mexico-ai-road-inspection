@@ -20,7 +20,6 @@ model = YOLO('best.pt')
 def bgr2rgb(image):
     return image[:, :, ::-1]
 
-
 def process_video(video_path):
     # Load the video
     cap = cv2.VideoCapture(video_path)
