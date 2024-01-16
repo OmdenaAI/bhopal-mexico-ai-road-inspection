@@ -1,4 +1,3 @@
-
 # AI Based Road Inspection System
 
 <p align="center">
