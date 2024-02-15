@@ -1,2 +1,2 @@
 
-Deployed on Streamlit
+Demo Deployed on Streamlit.
